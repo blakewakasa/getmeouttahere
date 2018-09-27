@@ -1,0 +1,15 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "ajv": "^6.0.0",
+    "axios": "^0.18.0",
+    "eslint": "^3.17.0",
+    "expo": "^28.0.0",
+    "react": "^16.4.2",
+    "react-native": "^0.44.1",
+    "react-native-twilio-programmable-voice": "^3.20.1",
+    "twilio": "^3.19.2"
+  }
+}
