@@ -15,8 +15,8 @@ def hello():
 
     call = client.calls.create(
                         url='http://demo.twilio.com/docs/voice.xml',
-                        to='+13109088913',
-                        from_='+14243533761'
+                        to='mynumber',
+                        from_='theirnumber'
                     )
     return jsonify({
         'stats'
@@ -38,7 +38,7 @@ def output():
     call = client.calls.create(
                         url='http://demo.twilio.com/docs/voice.xml',
                         to ='+1'+number['mynumber'],
-                        from_='+14243533761'
+                        from_='theirnumber'
                     )
     return jsonify({
         'success':'Successfuly sent',
