@@ -8,7 +8,7 @@ import { StyleSheet,
     Keyboard,
 } from 'react-native';
 
-const serverURL = 'http://192.168.1.125:5005/call';
+const serverURL = 'myhomeurl';
 
 export default class Regform extends React.Component {
     constructor(props){
